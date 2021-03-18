@@ -48,7 +48,7 @@
       </table>
       {{$employee->links('pagination::bootstrap-4')}}
     @else
-</div style="text-align:center">
+<div style="text-align:center">
 <h2>No Data Yet</h2>
 </div>
     @endif

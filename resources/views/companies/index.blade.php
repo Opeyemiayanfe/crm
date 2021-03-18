@@ -46,9 +46,9 @@
       </table>
       {{$companies->links('pagination::bootstrap-4')}}
     @else
-  </div>
-  <h2>No Data Yet</h2>
-  </div>
+      <div style="text-align: center;">
+         <h2>No Data Yet</h2>
+       </div>
     @endif
 </div>
 
